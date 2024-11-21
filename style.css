@@ -98,7 +98,12 @@
     height: 12px;
 }
 
-#hero #bar-item-and-cart-info #cart-info {}
+#hero #bar-item-and-cart-info #cart-info {
+    border: 1px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 #hero #bar-item-and-cart-info #cart-info img {
     height: 48px;
