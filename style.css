@@ -381,3 +381,12 @@ hero title and p
 }
 
 /* hero End */
+/* About me start */
+#about-me {
+    background-image: url(assets/Image/About-bg.svg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+ 
+}
+/* About me End */
