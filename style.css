@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    --main-color: #292F36;
+    --dark-green: #12F7D6;
+}
+
+.page {
+    height: 100vh;
+    width: 100vh;
+}
+
+#header {
+    background-color: var(--main-color);
+    font-family: "IBM Plex Mono", monospace;
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    height: 20px;
+    padding: calc(64px / 3) calc(128px / 3);
+}
+
+#header #logo {
+    color: white;
+}
+
+#header #logo span {
+    margin-right: 5px;
+    color: var(--dark-green);
+    font-size: 20px;
+}
+
+#header #nav {
+    display: flex;
+    color: white;
+}
+
+#header #nav .nav-item {
+    margin: 0 14px;
+    font-size: 14px;
+}
+
+#header-hr {
+    width: 100vw;
+    height: .2px;
+    background-color: #3d4752;
+    margin: 0 calc(64px / 3);
+}
+
+/* hero start */
+#hero {
+    background-color: var(--main-color);
+    width: inherit;
+    height: calc(100vh - 63px);
+    display: flex;
+}
+
+#hero #bar-item-and-cart-info {
+    flex: 1;
+    display: flex;
+}
+
+#hero #bar-item-and-cart-info #bar-item {
+    border: solid white 1px;
+    height: min-content;
+    background-color: #1A1E23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 6px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+#hero #bar-item-and-cart-info #bar-item .active {
+    background-color: white;
+    padding: 2px 5px 0 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#hero #bar-item-and-cart-info #bar-item .icon-bar {
+    margin: 10px 0;
+}
+
+#hero #bar-item-and-cart-info #bar-item img {
+    width: 12px;
+    height: 12px;
+}
+
+#hero #bar-item-and-cart-info #cart-info {
+    border: 1px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero #bar-item-and-cart-info #cart-info img {
+    height: 48px;
+    width: 48px;
+}
+
+/* hero title and p */
+#hero #title-and-greet-hey {
+    flex: 2;
+
+}
+
+#hero #title-and-greet-hey h1 {
+    text-align: center;
+    color: var(--dark-green);
+    font-family: Ubuntu;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#hero #container-skills {
+    flex: 1;
+}
+
+/* hero End */
