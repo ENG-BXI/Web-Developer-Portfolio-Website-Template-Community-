@@ -447,3 +447,11 @@ hero title and p
 }
 
 /* About me End */
+/* skills page End */
+#skills {
+    background-image: url(assets/Image/Skills.svg);
+    background-size: contain;
+    width: 100%;
+}
+
+/* skills page End */
