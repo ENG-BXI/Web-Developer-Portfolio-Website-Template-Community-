@@ -452,6 +452,178 @@ hero title and p
     background-image: url(assets/Image/Skills.svg);
     background-size: contain;
     width: 100%;
+  
+}
+
+#skills #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+#skills #container #mouse-and-slash-icon {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#skills #container #mouse-and-slash-icon img {
+    width: 20px;
+    margin-bottom: 30px;
+}
+
+#skills #container #mouse-and-slash-icon h5 {
+    font-size: 140px;
+    color: var(--dark-green);
+    position: absolute;
+    right: 290px;
+    font-family: "Ubuntu";
+
+
+}
+
+#skills #container #skills-and-p-word {
+    text-align: center;
+}
+
+#skills #container #skills-and-p-word h5 {
+    color: var(--dark-green);
+    font-size: 40px;
+    font-family: "Ubuntu", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+
+#skills #container #skills-and-p-word img {
+    width: 100px;
+}
+
+#skills #container #skills-and-p-word p {
+    color: var(--gray-text);
+    font-size: 14px;
+    font-family: "Ubuntu", monospace;
+    margin-bottom: 50px;
+}
+
+#skills #container #cards {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+#skills #container #cards .card {
+    background-color: #98FAEC;
+    padding: 10px 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#skills #container #cards .card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -3px;
+    width: 5px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 88px;
+    background-color: #28A9E0;
+}
+
+#skills #container #cards .card img {
+    width: 18px;
+    margin-bottom: 5px;
+}
+
+#skills #container #cards .card #pc {
+    margin-bottom: 10px;
+}
+
+#skills #container #cards .card h5 {
+    font-size: 18px;
+    font-family: "IBM Plex Mono", monospace;
+    color: #292F36;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+#skills #container #cards .card h6 {
+    color: #43454D;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#skills #container #tecno-circle {
+    display: flex;
+    
+    text-align: center;
+}
+
+#skills #container #tecno-circle .tecno-circle-item{
+    margin: 0 50px;
+}
+#skills #container #tecno-circle .tecno-circle-item img {
+    padding: 30px;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#skills #container #tecno-circle #html {
+    --background: #E54F26;
+    color: var(--background);
+
+    img {
+        background-color: var(--background);
+    }
+}
+
+#skills #container #tecno-circle #css {
+    --background: #0C73B8;
+    color: var(--background);
+
+    img {
+        background-color: var(--background);
+
+    }
+}
+
+#skills #container #tecno-circle #js {
+    --background: #E7A020;
+    color: var(--background);
+
+    img {
+        background-color: var(--background);
+
+    }
+}
+
+#skills #container #tecno-circle #react {
+    --background: #28A9E0;
+    color: var(--background);
+
+    img {
+        background-color: var(--background);
+
+    }
+}
+
+#skills #container #tecno-circle .tecno-circle-item h5 {
+    font-size: 23px;
+    font-family: "IBM Plex Mono", monospace;
 }
 
 /* skills page End */
