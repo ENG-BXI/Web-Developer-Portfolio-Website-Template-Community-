@@ -628,3 +628,13 @@ hero title and p
 }
 
 /* skills page End */
+
+/* Works page start */
+#works {
+    background-image: url(./assets/Image/Works.svg);
+    background-size: contain;
+    width: 100%;
+    
+}
+
+/* Works page End */
