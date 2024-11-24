@@ -452,7 +452,7 @@ hero title and p
     background-image: url(assets/Image/Skills.svg);
     background-size: contain;
     width: 100%;
-  
+
 }
 
 #skills #container {
@@ -563,13 +563,14 @@ hero title and p
 
 #skills #container #tecno-circle {
     display: flex;
-    
+
     text-align: center;
 }
 
-#skills #container #tecno-circle .tecno-circle-item{
+#skills #container #tecno-circle .tecno-circle-item {
     margin: 0 50px;
 }
+
 #skills #container #tecno-circle .tecno-circle-item img {
     padding: 30px;
     height: 40px;
