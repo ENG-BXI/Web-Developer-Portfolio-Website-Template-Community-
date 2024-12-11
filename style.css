@@ -471,7 +471,7 @@ hero title and p
 
 }
 
-#skills #container #mouse-and-slash-icon img {
+#mouse-img {
     width: 20px;
     margin-bottom: 30px;
 }
@@ -540,6 +540,7 @@ hero title and p
 #skills #container #cards .card img {
     width: 18px;
     margin-bottom: 5px;
+
 }
 
 #skills #container #cards .card #pc {
@@ -634,7 +635,55 @@ hero title and p
     background-image: url(./assets/Image/Works.svg);
     background-size: contain;
     width: 100%;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#works h5 {
+    color: var(--dark-green);
+    font-size: 45px;
+    font-family: "Ubuntu";
+    font-weight: 300;
+}
+
+#works p {
+    margin-top: 10px;
+    color: var(--gray-text);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+}
+
+#works #dual-image-and-icon-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#works #dual-image-and-icon-row .icon {
+    background-color: var(--main-color);
+    padding: 10px 15px;
+    height: min-content;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#works #dual-image-and-icon-row #dual-screen {
+    height: 340px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+#works #dual-image-and-icon-row #next-icon {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
 }
 
 /* Works page End */
