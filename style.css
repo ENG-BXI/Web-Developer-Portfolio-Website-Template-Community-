@@ -471,7 +471,7 @@ hero title and p
 
 }
 
-#skills #container #mouse-and-slash-icon img {
+#mouse-img {
     width: 20px;
     margin-bottom: 30px;
 }
@@ -540,6 +540,7 @@ hero title and p
 #skills #container #cards .card img {
     width: 18px;
     margin-bottom: 5px;
+
 }
 
 #skills #container #cards .card #pc {
@@ -628,3 +629,191 @@ hero title and p
 }
 
 /* skills page End */
+
+/* Works page start */
+#works {
+    background-image: url(./assets/Image/Works.svg);
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#works h5 {
+    color: var(--dark-green);
+    font-size: 45px;
+    font-family: "Ubuntu";
+    font-weight: 300;
+}
+
+#works p {
+    margin-top: 10px;
+    color: var(--gray-text);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+}
+
+#works #dual-image-and-icon-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#works #dual-image-and-icon-row .icon {
+    background-color: var(--main-color);
+    padding: 10px 15px;
+    height: min-content;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+#works #dual-image-and-icon-row #dual-screen {
+    height: 340px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+#works #dual-image-and-icon-row #next-icon {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+/* Works page End */
+
+/* blogs page start */
+#blogs {
+    background-color: var(--main-color);
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#blogs #title {
+    color: var(--dark-green);
+    font-size: 45px;
+    font-family: "Ubuntu";
+    font-weight: 300;
+}
+
+#blogs #paragrph {
+    margin-top: 10px;
+    color: var(--gray-text);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 13px;
+
+}
+
+#blogs #white-line {
+    height: 1px;
+    width: 60%;
+    background-color: white;
+    margin: 40px 0;
+}
+
+#blogs .blog-paragraph {
+    display: flex;
+    width: 800px;
+}
+
+#blogs .blog-paragraph img {
+    height: 180px;
+    width: 180px;
+}
+
+#blogs .blog-paragraph #text-bloc {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+#blogs .blog-paragraph #text-bloc h5 {
+    color: var(--dark-green);
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Ubuntu";
+
+}
+
+#blogs .blog-paragraph #text-bloc p {
+    color: var(--gray-text);
+    font-family: "Ubuntu";
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+#blogs .blog-paragraph #text-bloc #read-more {
+    font-family: "Ubuntu";
+    color: var(--dark-green);
+    font-size: 15px;
+    border-bottom: 1px gray solid;
+    width: 80px;
+    text-wrap: nowrap;
+}
+
+#blogs .blog-paragraph #text-bloc #info-blog {
+    margin-top: 15px;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#blogs .blog-paragraph #text-bloc #info-blog #tec h6 {
+    background-color: #43454D;
+    color: rgb(194, 194, 194);
+    padding: 4px 6px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#blogs .blog-paragraph #text-bloc #info-blog h6 {
+    color: white;
+    font-family: "Ubuntu";
+    font-weight: 400;
+
+}
+
+#blogs .blog-paragraph #text-bloc #info-blog h6 span {
+    margin-left: 5px;
+    color: var(--gray-text);
+}
+
+#blogs #view-and-subscribe-button {
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+}
+
+#blogs #view-and-subscribe-button .button button {
+    border: none;
+    padding: 12px 20px;
+    font-family: "Ubuntu";
+    text-wrap: nowrap;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+#blogs #view-and-subscribe-button #view-button button{
+    background-color: var(--dark-green);
+}
+#blogs #view-and-subscribe-button #subscribe button {
+     background-color:transparent;
+     color: white;
+     border: 1px var(--dark-green) solid;
+}
+/* blogs page End */
