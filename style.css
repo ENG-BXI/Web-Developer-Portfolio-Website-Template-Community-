@@ -699,14 +699,14 @@ hero title and p
     align-items: center;
 }
 
-#blogs #title {
+.page #title {
     color: var(--dark-green);
     font-size: 45px;
     font-family: "Ubuntu";
     font-weight: 300;
 }
 
-#blogs #paragrph {
+.page #paragrph {
     margin-top: 10px;
     color: var(--gray-text);
     font-family: "IBM Plex Mono", monospace;
@@ -797,23 +797,157 @@ hero title and p
     justify-content: space-between;
 }
 
-#blogs #view-and-subscribe-button .button button {
+.button button {
     border: none;
     padding: 12px 20px;
     font-family: "Ubuntu";
     text-wrap: nowrap;
+    background-color: var(--dark-green);
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
 }
-#blogs #view-and-subscribe-button #view-button button{
-    background-color: var(--dark-green);
-}
+
+
 #blogs #view-and-subscribe-button #subscribe button {
-     background-color:transparent;
-     color: white;
-     border: 1px var(--dark-green) solid;
+    background-color: transparent;
+    color: white;
+    border: 1px var(--dark-green) solid;
 }
+
 /* blogs page End */
+
+/* content page start */
+#contact {
+    background-color: #1A1E23;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact #send-card-message {
+    color: var(--dark-green);
+    margin: 60px 0 40px 0;
+    font-size: 25px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    border: var(--dark-green) 2px solid;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form #name-and-email-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#contact form #name-and-email-field div label,
+#contact form #message-field label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Ubuntu";
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--dark-green);
+}
+
+.field input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--dark-green);
+    margin-right: 20px;
+    color: var(--dark-green);
+
+}
+
+.field #name,
+.field #email {
+    width: 350px;
+}
+
+.field #message {
+    width: calc(350px *2 + 20px);
+    margin-bottom: 60px;
+}
+
+#contact form .button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#contact form .button button img {
+    margin-left: 10px;
+    height: 17px;
+}
+
+/* content page End */
+/*  footer start */
+#home-page-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A1E23;
+    color: var(--gray-text);
+    height: 50px;
+}
+
+#home-page-footer h6 {
+    font-size: 12px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+
+}
+
+#home-page-footer h6 span a {
+    color: var(--dark-green);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#home-page-footer #Privacy-Policy-and-Terms {
+    display: flex;
+
+}
+
+#home-page-footer #Privacy-Policy-and-Terms h6 {
+    margin-left: 20px;
+}
+
+body hr {
+    height: 0.05mm;
+    background-color: #43454D;
+    border: none;
+}
+
+#home-page-footer #footer-icon #footer-icon-item {
+    background-color: var(--dark-green);
+    cursor: pointer;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/*  footer end */
