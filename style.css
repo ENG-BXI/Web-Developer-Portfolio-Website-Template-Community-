@@ -808,12 +808,15 @@ hero title and p
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
 }
-#blogs #view-and-subscribe-button #view-button button{
+
+#blogs #view-and-subscribe-button #view-button button {
     background-color: var(--dark-green);
 }
+
 #blogs #view-and-subscribe-button #subscribe button {
-     background-color:transparent;
-     color: white;
-     border: 1px var(--dark-green) solid;
+    background-color: transparent;
+    color: white;
+    border: 1px var(--dark-green) solid;
 }
+
 /* blogs page End */
