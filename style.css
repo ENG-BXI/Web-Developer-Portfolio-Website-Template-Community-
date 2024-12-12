@@ -889,6 +889,7 @@ hero title and p
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 #contact form .button button img {
@@ -897,3 +898,56 @@ hero title and p
 }
 
 /* content page End */
+/*  footer start */
+#home-page-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A1E23;
+    color: var(--gray-text);
+    height: 50px;
+}
+
+#home-page-footer h6 {
+    font-size: 12px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+
+}
+
+#home-page-footer h6 span a {
+    color: var(--dark-green);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#home-page-footer #Privacy-Policy-and-Terms {
+    display: flex;
+
+}
+
+#home-page-footer #Privacy-Policy-and-Terms h6 {
+    margin-left: 20px;
+}
+
+body hr {
+    height: 0.05mm;
+    background-color: #43454D;
+    border: none;
+}
+
+#home-page-footer #footer-icon #footer-icon-item {
+    background-color: var(--dark-green);
+    cursor: pointer;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/*  footer end */
