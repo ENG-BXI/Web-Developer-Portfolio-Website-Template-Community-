@@ -23,6 +23,7 @@
     width: inherit;
     height: 20px;
     padding: calc(64px / 3) calc(128px / 3);
+    cursor: pointer;
 }
 
 #header #logo {
@@ -43,6 +44,14 @@
 #header #nav .nav-item {
     margin: 0 14px;
     font-size: 14px;
+
+
+
+}
+
+#header #nav .nav-item:hover {
+    color: var(--dark-green);
+
 }
 
 #header #nav .active {
@@ -91,6 +100,7 @@
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+    cursor: pointer;
 }
 
 #hero #bar-item-and-cart-info #bar-item .active {
@@ -105,6 +115,13 @@
 
 #hero #bar-item-and-cart-info #bar-item .icon-bar {
     margin: 10px 0;
+
+}
+
+#hero #bar-item-and-cart-info #bar-item .icon-bar:hover {
+    background-color: gray;
+    padding: 2px 5px 0 5px;
+    border-radius: 50%;
 }
 
 #hero #bar-item-and-cart-info #bar-item img {
@@ -378,6 +395,8 @@ hero title and p
 #hero #container-skills #cart-skills .cart-skils-item #skills {
     font-size: 10px;
     color: var(--gray-text);
+
+
 }
 
 /* hero End */
@@ -448,7 +467,7 @@ hero title and p
 
 /* About me End */
 /* skills page End */
-#skills {
+body>#skills {
     background-image: url(assets/Image/Skills.svg);
     background-size: contain;
     width: 100%;
@@ -664,6 +683,7 @@ hero title and p
 #works #dual-image-and-icon-row .icon {
     background-color: var(--main-color);
     padding: 10px 15px;
+    cursor: pointer;
     height: min-content;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -754,6 +774,7 @@ hero title and p
 #blogs .blog-paragraph #text-bloc #read-more {
     font-family: "Ubuntu";
     color: var(--dark-green);
+    cursor: pointer;
     font-size: 15px;
     border-bottom: 1px gray solid;
     width: 80px;
@@ -795,6 +816,7 @@ hero title and p
     display: flex;
     width: 220px;
     justify-content: space-between;
+
 }
 
 .button button {
@@ -808,6 +830,7 @@ hero title and p
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
+    cursor: pointer;
 }
 
 
